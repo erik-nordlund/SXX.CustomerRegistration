@@ -1,5 +1,4 @@
-﻿
-using SXX.CustomerRegistration.Repositories;
+﻿using SXX.CustomerRegistration.Repositories;
 using SXX.CustomerRegistration.Services;
 
 ICustomerRepository repository = new CustomerRepository();
@@ -127,4 +126,3 @@ while (running)
 }
 
 Console.WriteLine("Programmet avslutas.");
-Console.WriteLine("Hello, World!");
